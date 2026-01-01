@@ -1,5 +1,4 @@
 import pygame
-<<<<<<< HEAD
 from constants import SCREEN_WIDTH,SCREEN_HEIGHT
 from logger import log_state
 
@@ -18,17 +17,5 @@ def main():
                 return
         screen.fill("black")
         pygame.display.flip()
-
-
-
-
-
-
-=======
-def main():
-    print(f"Starting Asteroids with pygame version: {pygame.version.ver}")
->>>>>>> 8c1c53e496038cc80e93bd16279b0cb958ac5194
-
-
 if __name__ == "__main__":
     main()
